@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>User Profile </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=block" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows Into Light">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <a href="#header"><span class="up-arrow material-symbols-outlined">
+            keyboard_arrow_up
+        </span></a>
+    <header id="header">
+        <div class="jumbotron d-none d-sm-block p-0"></div>
+        <div class="d-flex flex-wrap">
+            <img id="prof-pic" src="./images/profile_pic.jpg" alt="profile picture" width="150px" height="150px">
+            <h1 id="full-name" class="ml-5 mt-5 mb-5">Ingrid Torres</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#videos">Videos</a></li>
+            </ul>
+            <!-- <span class="material-symbols-outlined" style="font-size: 40px" id="play-circle">play_circle</span> -->
+            <audio controls autoplay>
+                <source src="css/uptown-girl.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <script>document.querySelector("audio").volume = 0.5;</script>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <h4>Junior MERN Stack Developer</h4>
+
+            <p>An Electronics Engineer, shifting career as a Full Stack Web Developer.
+
+                My career as a developer started in August 2022 when I decided to learn web development. I shifted
+                career to
+                pursue my passion in programming while working from home.
+
+            </p>
+            <p>I'm a full stack web developer specialising in MERN stack (MongoDB Express ReactJS Node).</p>
+            <p>I also am proficient with PHP, CodeIgniter and MySQL.</p>
+        </section>
+        <section id="photos">
+            <h2>Some of My Travel Photos</h2>
+            <img src="images/taal.jpg" alt="Taal Lake">
+            <img src="images/siargao.jpg" alt="Socorro, Bucas Grande">
+            <img src="images/boracay.jpg" alt="Boracay">
+        </section>
+        <section id="videos">
+            <h2>Video by <a href="https://www.facebook.com/travelkadas" target="_blank">Travelkadas</a></h2>
+            <h3>Siargao Island</h3>
+            <video width="600" controls>
+                <source src="css/Siargao 2019.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video>
+        </section>
+    </main>
+    <footer>
+        <h2>Socials</h2>
+        <ul>
+            <li><a href="mailto:ingrid.escabal@gmail.com">ingrid.escabal@gmail.com</a></li>
+            <li><a href="https://ingrid-e-torres.netlify.app/" target="_blank">https://ingrid-e-torres.netlify.app/</a>
+            </li>
+            <li><a href="https://twitter.com/ingrid_ibe" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/ingrid-torres-3428782a/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://web.facebook.com/ingrid.escabal/" target="_blank">Facebook</a></li>
+            <li><a href="https://github.com/heartChip16" target="_blank">Github</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>

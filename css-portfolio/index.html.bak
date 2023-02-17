@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ingrid Torres Resume</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows Into Light">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<main>
+		<!-- ***********************  ABOUT / PROFILE  *********************** -->
+		<header>
+			<div class="content-wrapper">
+				<h1>Ingrid Torres</h1>
+				<h2>MERN Stack Developer</h2>
+
+				<p>An Electronics Engineer, shifting career as a Full Stack Web Developer.
+
+					My career as a developer started in August 2022 when I decided to learn web development. I shifted
+					career to
+					pursue my passion in programming and become a freelancer.
+
+				</p>
+				<p>I'm a full stack web developer specialising in MERN stack (MongoDB Express ReactJS Node).</p>
+				<p>I also am proficient with PHP, CodeIgniter and MySQL.</p>
+			</div>
+		</header>
+
+		<!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+		<section class="projects">
+			<div class="content-wrapper">
+				<h2>Featured Projects</h2>
+				<p>View selected projects below. More information can be found at <a
+						href="https://ingrid-e-torres.netlify.app/projects.html">https://ingrid-e-torres.netlify.app/projects.html</a>.
+				</p>
+
+				<!-- Copy the whole <section> block to add more projects. -->
+				<section>
+					<div class="project-item">
+						<img src="images/proj1.jpg" alt="E-commerce App Using ReactJS">
+						<div class="project-description">
+							<h3>E-commerce App Using ReactJS</h3>
+							<p>Uses React JS, Material UI, Firebase, and Redux Tool Kit (RTK)</p>
+							<p>Try it! Username:jihofih202@cnogs.com Password: test1234</p>
+							<a href="https://ingrid-torres-ecommerce.netlify.app/" target="_blank">View project</a>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="project-item">
+						<img src="images/proj2.jpg" alt="Spotify Clone Using ReactJS">
+						<div class="project-description">
+							<h3>Spotify Clone</h3>
+							<p>Uses Vanilla JavaScript, React JS and API.</p>
+							<p>Try it! Username:jemim16-ph Password: jemim16-ph</p>
+							<a href="https://spotify-clone-ingridtorres.netlify.app/" target="_blank">View project</a>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!-- End of Project block. -->
+		</section>
+
+		<!-- ***********************  WORK EXPERIENCE  *********************** -->
+		<section class="work">
+			<div class="content-wrapper">
+				<h2>Work Experience</h2>
+				<p>My previous work experiences are actually part of my engineering journey. In engineering I learned to
+					be
+					analytical, systematic and logical. So I can say that my engineering journey is not in vain when I
+					shifted to
+					web developement.</p>
+
+				<!-- Copy this whole <section> block to add more jobs. -->
+				<section>
+					<div class="work-title">
+						<h3>Assistant Professor I</h3>
+						<p>Surigao State College of Technology</p>
+						<p>August 2019-January 2022</p>
+					</div>
+					<div class="work-description">
+						<p>I was part of the Engineering Faculty of the Surigao State College of Technology handling
+							engineering
+							subjects - including minor and major subjects related to electronics and electrical
+							engineering.
+						</p>
+					</div>
+				</section>
+				<section>
+					<div class="work-title">
+						<h3>Senior Science Research Specialist</h3>
+						<p>MSU-IIT and DOST-PCIEERD</p>
+						<p>March 2018- March 2019</p>
+					</div>
+					<div class="work-description">
+						<p>This period is a continuation of Year 1 uC-IC Project of MSU-
+							IIT and DOST-PCIEERD. During this period, we (the Project 1 Team assigned for the digital
+							part
+							of
+							the uC-IC,
+							while the other
+							2 projects being the Energy Harvesting Unit and Power
+							Management Unit), performed detailed physical synthesis,
+							hardware emulation, Static Timing Analysis (STA), and ICC
+							physical design and verification, as well as chip testing of the
+							fabricated chip.</p>
+						<p>During the course of the period, the researcher was also
+							responsible for the power analysis of each of the projects,
+							Project 1 (MCU), 2 (Power Management Unit) and 3 (Energy
+							Harvesting Unit). She was also responsible for creating the
+							Test Plan for the Project 1 chip and generating the assembly
+							code to be used for testing.</p>
+					</div>
+				</section>
+				<section>
+					<div class="work-title">
+						<h3>Science Research Specialist II</h3>
+						<p>MSU-IIT and DOST-PCIEERD</p>
+						<p>March 2017- March 2018</p>
+					</div>
+					<div class="work-description">
+						<p>Part of the Project I Team which is responsible in designing the
+							digital side of the IC of the program entitled uC-IC: Design of
+							Microcontroller Integrated with Energy Harvesting and Power
+							Management. Project I is entitled “Development of
+							Microprocessor for Wireless Network Application.” Tasks
+							involved were RTL design of the microcontroller using Verilog
+							HDL, RTL and gate simulation, synthesis, timing analysis and
+							equivalence checking using Synopsys tools.</p>
+						<p>The researcher was primarily responsible in the processor part
+							(frontend, execution unit and other core modules), and its
+							verification; initial integration of SRAM verilog model to the
+							core; integrated the peripherals GPIO, UART, SPI and I2C to
+							the core; RTL and gate simulation of the core with GPIO,
+							UART, SPI, and I2C; initial physical synthesis of the core using
+							Synopsys ICC; I2C RTL design, RTL and gate simulation,
+							synthesis, equivalence checking, and hardware emulation.</p>
+					</div>
+				</section>
+				<section>
+					<div class="work-title">
+						<h3>Intern (System Design Creation Team)</h3>
+						<p>Lattice Semiconductor Inc.</p>
+						<p>March 2016 - October 2016</p>
+					</div>
+					<div class="work-description">
+						<p>Provided 5Gbps support for the JESD204B Full System from
+							3Gbps lane speed, by redesigning the full system. Major blocks
+							changed are the RX framer and TX deframer modules of the
+							transaction layer. Programmed using Verilog HDL. Existing
+							testbench in System Verilog and UVM were also modified to
+							support 5G. System was tested through RTL and gate
+							simulation. Static Timing Analysis (STA) was performed using
+							the Lattice Diamond Tool.</p>
+					</div>
+				</section>
+				<section>
+					<div class="work-title">
+						<h3>Engineer Trainee-Design and Verification</h3>
+						<p>ROHM LSI Design Philippines</p>
+						<p>October 2013-April 2014</p>
+					</div>
+					<div class="work-description">
+						<p>Verification of chip parameters with the specification, e.g. gain,
+							PSRR, CMRR and slew rate of opamp and comparators;
+							simulation.</p>
+					</div>
+				</section>
+				<section>
+					<div class="work-title">
+						<h3>Cadet Engineer - ASIC Design and Verifications</h3>
+						<p>BitMicro International Inc.</p>
+						<p>July 2012-May 2013</p>
+					</div>
+					<div class="work-description">
+						<p>Programmed using Verilog programming language for RTL
+							Design and using System Verilog and UVM for Verification;
+							Part of the team which verified the PCIE module of the
+							company's SSD product; assigned together with the team
+							verifying the Datalink Layer of the PCIE; modified the module
+							for dual core operation.</p>
+					</div>
+				</section>
+				<section>
+					<div class="work-title">
+						<h3>On-the-Job Trainee</h3>
+						<p>PLDT-PhilCom Corporation (Technical Operation Dept. -Inside Plant and Transmission
+							Maintenance
+							Center)</p>
+						<p>April-May 2010</p>
+					</div>
+					<div class="work-description">
+						<p>Technical works such as DLS installation, wireless radio
+							installation, PC installation and repair, network operation and
+							structured cabling.</p>
+					</div>
+				</section>
+			</div>
+			<!-- End of Job block. -->
+		</section>
+
+		<!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+		<section class="education">
+			<div class="content-wrapper">
+				<h2>Education</h2>
+
+				<!-- Copy this whole <section> block to add more schools. -->
+				<section>
+					<h3>Mindanao State University-Iligan Institute of Technology</h3>
+					<p>Master of Science in Electrical Engineering - Major in Microelectronics, 2014-2017</p>
+				</section>
+				<section>
+					<h3>Mindanao State University-Main Campus</h3>
+					<p>Bachelor of Science in Electronics and Communications Engineering, 2006-2011</p>
+					<p><em>Magna Cum Laude</em></p>
+				</section>
+			</div>
+			<!-- End of School block. -->
+		</section>
+
+		<!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+		<footer>
+			<h2>Let's Keep in Touch!</h2>
+
+			<!-- Social media and contact links. Add or remove any networks. -->
+			<ul>
+				<li><a href="mailto:ingrid.escabal@gmail.com">ingrid.escabal@gmail.com</a></li>
+				<li><a href="https://ingrid-e-torres.netlify.app/"
+						target="_blank">https://ingrid-e-torres.netlify.app/</a></li>
+				<li><a href="https://twitter.com/ingrid_ibe" target="_blank">Twitter</a></li>
+				<li><a href="https://www.linkedin.com/in/ingrid-torres-3428782a/" target="_blank">LinkedIn</a></li>
+				<li><a href="https://web.facebook.com/ingrid.escabal/" target="_blank">Facebook</a></li>
+				<li><a href="https://github.com/heartChip16" target="_blank">Github</a></li>
+			</ul>
+		</footer>
+	</main>
+</body>
+
+</html>

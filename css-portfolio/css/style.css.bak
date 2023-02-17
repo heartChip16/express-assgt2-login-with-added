@@ -1,0 +1,183 @@
+/* Global styles
+---------------------------------------*/
+:root {
+    --header-fonts: 'Shadows Into Light', cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    color: #388697;
+    font-family: "Karla", sans-serif;
+}
+
+.content-wrapper {
+    max-width: 800px;
+	width: 85%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+header, footer, .projects, .work, .education {
+    margin:0px;
+    padding: 50px 0;
+}
+
+h1 {
+    font-family:var(--header-fonts);
+    font-size: 50px;
+    padding: 30px 0;
+}
+
+h2  {
+    font-family:var(--header-fonts);
+    font-size: 30px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+
+
+p {
+    margin: 10px;
+}
+
+section  img {
+    width: 300px;
+    margin: 10px 40px 10px 10px;
+}
+
+section a {
+    /* background-color: rgb(204, 41, 54); */
+    /* background-color: #388697; */
+    color:  #388697;
+    /* text-decoration: none; */
+    font-style: italic;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+li {
+    margin: 18px;
+}
+
+section a:hover {
+    background-color: rgba(8, 65, 92, 50%);
+    color: white;
+    /* color: rgba(8, 65, 92, 80%); */
+}
+
+ section>div>h3 + p, section>h3 + p  {
+	font-style: italic;
+	margin-top: 0px;
+}
+
+
+/* Profile
+---------------------------------------*/
+header {
+    background-color: #08415C;
+    color: white;
+}
+
+header p {
+    margin: 25px 0;
+}
+/* Projects
+---------------------------------------*/
+.projects {
+    /* background-color:  #B5FFE1; */
+    background-color: #B5FFE1;
+    color:#08415C;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.project-item .project-description {
+	flex: 1 1 100%;
+}
+
+.projects section {
+	border-bottom: 1px dashed  #08415C;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.projects section:last-child {
+	border-bottom: none;
+	padding-bottom: 0px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+
+/* Work Experience
+---------------------------------------*/
+.work {
+    background-color: #EBBAB9;
+	background-image: url('work.jpg');
+}
+
+.work section {
+    padding-left: 0px;
+    display: flex;
+    border-bottom: 1px dashed  #08415C;
+	flex-wrap: wrap;
+}
+
+.work section:last-child {
+	border-bottom: none;
+}
+
+.work-title {
+    flex-basis: 200px;
+    flex-shrink: 0;
+    text-align: left;
+    /* display: inline; */
+}
+.work-description {
+    display: inline;
+}
+
+/* Education
+---------------------------------------*/
+.education {
+    background-color:  #CC2936;
+    color: white;
+}
+
+.education section {
+    margin: 40px 0;
+}
+/* Contact Info
+---------------------------------------*/
+footer {
+    color: #CC2936;
+    background-color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+footer ul li a {
+    color: #CC2936;
+}
+
+footer ul li {
+    display: inline;
+    font-size: small;
+}
+

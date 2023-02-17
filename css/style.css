@@ -1,0 +1,306 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-family: "Karla", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 4px;
+}
+
+section h2, footer h2 {
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+a {
+  color: #DD4F53;
+}
+
+.maincontent {
+  line-height: 160%;
+}
+
+.sidebar {
+  font-family: 'Roboto', sans-serif;
+  line-height: 130%;
+}
+
+.sidebar {
+  font-size: 0.9em;
+}
+
+.sidebar-title {
+  font-size: 1.3em;
+}
+
+.sidebar .sidebar-body li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    line-height: 160%;
+  }
+  .sidebar .sidebar-title {
+    font-size: 2em;
+  }
+
+}
+
+.jumbotron {
+  background-image: url("../images/coverphoto.jpg");
+  width: 100%;
+  height: 50vh;
+  background-position: -350px -550px;
+  background-repeat: no-repeat;
+
+}
+
+#prof-pic {
+  position:relative;
+  left:30px;
+  top: -60px;
+  z-index: 10;
+ border-radius: 50%;
+ border: 2px solid rgba(0, 0, 0, 0.9)
+}
+
+nav {
+  border-top: 1px solid gray;
+  padding: 2px;
+  position: relative;
+  top: -40px;
+}
+
+nav ul {
+  margin-left: 150px;
+  list-style: none;
+  display: inline-flex;
+  gap: 40px;
+}
+
+nav ul li {
+  padding-top: 18px;
+}
+
+nav ul li a {
+  color: inherit;
+  padding: 7px;
+  border-radius: 3px;
+}
+
+a:hover {
+  background-color: rgba(255,255,255,0.2);
+  text-decoration: none;
+  color: inherit;
+}
+
+header, section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: black;
+  padding: 20px;
+}
+
+section {
+  min-height: 300px;
+  /* border: 1px solid gray; */
+  margin-bottom: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #191919;
+  padding: 20px;
+}
+
+section h2 {
+  /* text-align: left; */
+}
+
+audio {
+    margin-top: 18px;
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
+    float:right;
+
+}
+
+#photos, #videos {
+  text-align: center;
+}
+
+
+#photos img {
+  max-width: 600px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  box-shadow: rgba(53, 54, 54, 0.35) 0px 5px 15px;
+}
+
+video {
+  border-radius: 3px;
+}
+
+h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.material-symbols-outlined {
+  position: fixed;
+  right: 5%;
+  top: 50%;
+  background-color: gray;
+  border-radius: 50%;
+  padding: 5px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 600,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+a {
+  color: inherit;
+}
+
+footer {
+   margin:0px;
+   padding: 50px 0;
+}
+
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+
+footer ul li {
+    display: inline;
+
+}
+
+footer h2 {
+  text-align: center;
+}
+
+footer ul li a {
+    padding: 6px;
+    border-radius: 3px;
+}
+
+h2 + img {
+  margin-top: 10px;
+}
+
+h2 + h3 {
+ padding-bottom: 10px;
+}
+
+h4 ~ p {
+  margin-bottom: 1rem;
+}
+
+
+/*
+MEDIA SECTION
+*/
+@media (max-width: 768px) {
+
+.jumbotron {
+  width: 100%;
+  background-image: url("../images/coverphoto.jpg");
+  background-position: -550px -500px;
+  background-repeat: no-repeat;
+
+}
+
+.material-symbols-outlined {
+  position: fixed;
+  right: 3%;
+  top: 50%;
+}
+
+#prof-pic {
+  position:relative;
+  left:30px;
+  top: 20px;
+  z-index: 10;
+ border-radius: 50%;
+ border: 2px solid rgba(0, 0, 0, 0.9)
+}
+
+nav {
+  text-align: center;
+}
+
+header {
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+section img, video {
+  width: 95%;
+}
+
+audio {
+  margin-right: 10px;
+}
+
+
+ footer ul li {
+        flex: 1 1 100%;
+    }
+
+    footer ul li {
+        margin: 5px;
+     padding: 5px;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+nav ul{
+  margin-left: 150px;
+  list-style: none;
+  display: block;
+}
+
+audio {
+  margin-right: 0px;
+  margin-bottom: 0px;
+  float:none;
+}
+}
+
+.top-header {
+  background-color: black;
+  height: 40px;
+}

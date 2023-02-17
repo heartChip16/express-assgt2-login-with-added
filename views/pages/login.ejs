@@ -1,0 +1,57 @@
+<div class="container mt-5">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-4 ">
+            <div class="maincontent">
+                <h1>Please login to continue</h1>
+                <div class="login-status">
+                    <% if(locals.errors){%>
+                        <div class="alert alert-danger">
+                            <ul>
+                                <% errors.forEach(function (error){%>
+                                    <li>
+                                        <%=error.msg%>
+                                    </li>
+                                    <%})%>
+                            </ul>
+                        </div>
+                        <% } else if(locals.successMessage){ %>
+                            <div class="alert alert-success">
+                                <%=successMessage%>
+                            </div>
+                            <% }%>
+                </div>
+                <form class="login-form mb-5 pb-5" method="POST" action="/login">
+                    <div class="form-group">
+                        <label for="login-form-username">Username</label>
+                        <input name="username" type="text" class="form-control" id="login-form-username"
+                            placeholder="Enter your username">
+                    </div>
+                    <div class="form-group">
+                        <label for="login-form-title">Password</label>
+                        <input name="password" type="password" class="form-control" id="login-form-password"
+                            placeholder="Enter your password">
+                    </div>
+                    <input name="type" type="hidden" class="form-control" id="type" value="Login">
+                    <button type="submit" name="submit" class="btn btn-secondary float-right">Login</button>
+                </form>
+
+                <form class="signup-form mt-5" method="POST" action="/login">
+                    <h1>Doesn't have an account? Sign up below. </h1>
+                    <div class="form-group">
+                        <label for="signup-form-username">Username</label>
+                        <input name="username" type="text" class="form-control" id="signup-form-username"
+                            placeholder="Enter your username">
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-form-title">Password</label>
+                        <input name="password" type="password" class="form-control" id="signup-form-password"
+                            placeholder="Enter your password">
+                    </div>
+                    <input name="type" type="hidden" class="form-control" id="type" value="Signup">
+                    <button type="submit" name="submit" class="btn btn-secondary float-right">Sign up</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
